@@ -1,0 +1,16 @@
+127.0.0.1 - - [04/Mar/2024:20:20:51 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [04/Mar/2024:20:20:52 +0530] "GET /Atmosify/index.html HTTP/1.1" 200 859
+0:0:0:0:0:0:0:1 - - [04/Mar/2024:20:20:52 +0530] "GET /Atmosify/images/logo.jpg HTTP/1.1" 200 342656
+0:0:0:0:0:0:0:1 - - [04/Mar/2024:20:20:52 +0530] "GET /Atmosify/style.css HTTP/1.1" 200 4879
+0:0:0:0:0:0:0:1 - - [04/Mar/2024:20:20:52 +0530] "GET /Atmosify/images/background.gif HTTP/1.1" 200 1888167
+0:0:0:0:0:0:0:1 - - [04/Mar/2024:20:20:52 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [04/Mar/2024:20:21:21 +0530] "POST /Atmosify/MyServlet HTTP/1.1" 200 1882
+0:0:0:0:0:0:0:1 - - [04/Mar/2024:20:21:21 +0530] "GET /Atmosify/images/temperature.gif HTTP/1.1" 200 1172717
+0:0:0:0:0:0:0:1 - - [04/Mar/2024:20:21:21 +0530] "GET /Atmosify/images/wind.gif HTTP/1.1" 200 468815
+0:0:0:0:0:0:0:1 - - [04/Mar/2024:20:21:21 +0530] "GET /Atmosify/script.js HTTP/1.1" 200 1585
+0:0:0:0:0:0:0:1 - - [04/Mar/2024:20:21:22 +0530] "GET /Atmosify/images/haze.gif HTTP/1.1" 200 36759
+0:0:0:0:0:0:0:1 - - [04/Mar/2024:20:22:00 +0530] "POST /Atmosify/MyServlet HTTP/1.1" 200 1882
+127.0.0.1 - - [04/Mar/2024:21:02:49 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [04/Mar/2024:21:02:52 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [04/Mar/2024:21:03:10 +0530] "POST /Atmosify/MyServlet HTTP/1.1" 200 1864
+0:0:0:0:0:0:0:1 - - [04/Mar/2024:21:03:30 +0530] "POST /Atmosify/MyServlet HTTP/1.1" 200 1883

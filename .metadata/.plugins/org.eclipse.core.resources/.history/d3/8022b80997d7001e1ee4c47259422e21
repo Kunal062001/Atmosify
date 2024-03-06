@@ -1,0 +1,52 @@
+function updateClock() {
+            var now = new Date();
+            var hours = now.getHours();
+            var minutes = now.getMinutes();
+            var seconds = now.getSeconds();
+
+            // Add leading zero if needed
+            hours = (hours < 10) ? "0" + hours : hours;
+            minutes = (minutes < 10) ? "0" + minutes : minutes;
+            seconds = (seconds < 10) ? "0" + seconds : seconds;
+
+            var currentTimeString = hours + ":" + minutes + ":" + seconds;
+
+            // Update the time in the HTML element with id "clock"
+            document.getElementById("clock").innerHTML = currentTimeString;
+        }
+
+        // Update the clock every second
+        setInterval(updateClock, 1000);
+
+
+
+
+
+
+	var weatherIcon = document.getElementById("weather-icon");
+	
+	var val = document.getElementById("wc").value;
+	  switch (val) {
+      case 'Clouds':
+          weatherIcon.src = "images/clouds.gif";
+          break;
+      case 'clouds':
+          weatherIcon.src = "images/clouds.gif";
+          break;
+      case 'Clear':
+          weatherIcon.src ="images/sun.gif";
+          break;
+      case 'Rain':
+          weatherIcon.src = "images/rain.gif";
+          break;
+      case 'Mist':
+          weatherIcon.src = "images/foggy.gif";
+          break;
+      case 'Snow':
+          weatherIcon.src = "images/snow.gif";
+          break;
+      case 'Haze':
+          weatherIcon.src = "images/haze.gif";
+          break;
+  }
+	  

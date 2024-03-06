@@ -1,0 +1,25 @@
+
+	var weatherIcon = document.getElementById("weather-icon");
+	
+	var val = document.getElementById("wc").value;
+	  switch (val) {
+      case 'Clouds':
+          weatherIcon.src = "images/clouds.gif";
+          break;
+      case 'Clear':
+          weatherIcon.src ="images/sun.gif";
+          break;
+      case 'Rain':
+          weatherIcon.src = "images/rain.gif";
+          break;
+      case 'Mist':
+          weatherIcon.src = "images/foggy.gif";
+          break;
+      case 'Snow':
+          weatherIcon.src = "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-P3iT_uQK95qFY4h7QGdEtbRc1aVQo9BZy0ZWyPBvCNrP-4wnRStw0xYj9e4xa4ZlYISeNZqVJ33UP4YukR4jBennDD_obIN4QxYNZHdzG_z6_MNL2U08wMXwdFhtfvitW5LGiHgrwMJFC8QJFqbSO3woGSBqOdagGxaEQ20_S31Gc-GYL4vYzPzaPw/s320/snow.png";
+          break;
+      case 'Haze':
+          weatherIcon.src = "images/rain.gif";
+          break;
+  }
+	  
